@@ -1,6 +1,5 @@
-BILLION_SECONDS_IN_YEARS = 11574
-
 class Gigasecond
+	GIGASECOND_IN_YEARS = 11574
 	attr_reader :date
 
 	def initialize(birthdate)
@@ -8,6 +7,6 @@ class Gigasecond
 	end
 
 	def get_anniversary(birthdate)
-		birthdate + BILLION_SECONDS_IN_YEARS
+		birthdate + GIGASECOND_IN_YEARS
 	end
 end
